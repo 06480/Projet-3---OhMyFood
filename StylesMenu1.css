@@ -113,9 +113,7 @@ h2, h3, p, a{
 		animation-name: iconspin;
 		animation-duration: 900ms ;
 	}
-	.plats:hover .txtprix{
-		
-	}
+	
 	.txtprix{
 		
 		display: flex;

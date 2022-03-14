@@ -220,12 +220,40 @@ body{
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
     }
-
+    
     .restoicon{
         margin-right: 30px;
         font-size: 25px;
+        
+    }
+    .restoiconanim{
+        font-size: 25px;
+        margin-right: 30px;
+        color: violet;
+        
+    }
+    .alltxt:hover .hearticonvide{
+        display: none;
+        
+    }
+    .hearticonplein{
+        display: none;
+        transform-origin: bottom;
+    }
+    .alltxt:hover .hearticonplein{
+        display: inherit;
+        animation-name: heartanim;
+        animation-duration: 600ms;
+        animation-timing-function: ease-in-out;
     }
 
+    @keyframes heartanim{
+        from{transform:scaleY(0)}
+
+        to{transform: scaleY(1.0);}
+    }
+    
+    
     /*footer*/
 
     #basdepage{
