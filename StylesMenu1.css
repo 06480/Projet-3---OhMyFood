@@ -1,0 +1,231 @@
+@font-face{
+	font-family: 'Shrikhand', cursive;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+body{
+	margin: 0px;
+
+}
+h1{
+	font-family: 'Shrikhand', cursive;
+}
+h2, h3, p, a{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+	.blocpage{
+		width: 100%;
+		margin: auto;
+	}
+	.header{
+		display: flex;
+		width: 100%;
+		align-items: center;
+		border-bottom: 1px solid grey;
+	}
+	.header img{
+		display: block;
+		margin-left: 21%;
+		width: 40%;
+		margin-top: 23px;
+		margin-bottom: 13px;
+	}
+	
+	.iconheader{
+		margin-left: 100%;
+		font-size: 130%;
+		color: black;
+	}
+	
+	section{
+		display: flex;
+		flex-direction:column ;
+		width: 100%;
+		background: no-repeat url(images/restaurants/1resto.jpg);
+		background-size: contain;
+		background-color: #f6f6f6;
+
+		
+	}
+	section h1{
+		font-size: 1.9em;
+		padding-left: 20px;
+	}
+	section h2{
+		font-size: 1em;
+		margin-left: 20px;
+		border-bottom: 2px solid #99e2d0;
+		width: 45px;
+		padding-bottom: 5px;
+		font-weight: normal;
+	}
+	section h3{
+		padding-left: 10px;
+		margin-bottom: 0px;
+		padding-top: 10px;
+	}
+	section p{
+		padding-left: 10px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	.titremenu{
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 230px;
+		border-top-left-radius: 40px;
+		border-top-right-radius: 40px ;
+		background-color:#f6f6f6 ;
+		
+	}
+	.restoicon{
+		font-size: 25px;
+		padding-right: 35px;
+	}
+	.plats{
+
+		border: 1px grey solid;
+		border-radius: 15px;
+		margin-bottom: 15px;
+		margin-right: 10px;
+		margin-left: 10px;
+		box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+		border-style: none;
+
+	}
+	.plats:hover .checkanim{
+		animation-name: animationprix;
+		animation-duration: 900ms;
+		animation-timing-function: ease;
+		display: inherit;
+
+	}
+	.plats:hover .prix{
+		margin-right: -80px;
+	}
+	.plats:hover .animprixicon{
+		animation-name: iconspin;
+		animation-duration: 900ms ;
+	}
+	.plats:hover .txtprix{
+		
+	}
+	.txtprix{
+		
+		display: flex;
+		justify-content: space-between;
+	}
+	.prix{
+		display: flex;
+		padding-left: inherit;
+		padding-right: 15px;
+	}
+	.checkanim{
+		margin-top: -33px;
+		padding-top: 24px;
+		padding-right: 22px;
+		padding-left: 22px;
+		border-top-right-radius: 15px ;
+		border-bottom-right-radius:	15px ;
+		background-color: #99e2d0;
+		transform-origin: right;
+		display: none;
+		
+	}
+	.animprixicon{
+		font-size: 130%;
+		color: white;
+		
+	}
+	@keyframes iconspin{
+		from{transform: rotate(0deg);}
+		to{transform: rotate(360deg);}
+	}
+	@keyframes animationprix{
+		from{transform: scaleX(0); }
+		to{transform: scaleX(1.0);}
+	}
+	@keyframes animationplat{
+		from{transform: translateY(10px); opacity: 0;}
+		to{transform: translateY(0px); opacity: 1;}
+	}
+	.entrée{
+		animation-name: animationplat;
+		animation-duration: 600ms;
+		animation-delay: 200ms;
+		animation-fill-mode: both;
+		animation-timing-function: ease-out;
+	}
+	.platprincipal{
+		animation-name: animationplat;
+		animation-duration: 600ms;
+		animation-delay: 600ms;
+		animation-fill-mode: both;
+		animation-timing-function: ease-out;
+	}
+	.dessert{
+		animation-name: animationplat;
+		animation-duration: 600ms;
+		animation-delay: 1000ms;
+		animation-fill-mode: both;
+		animation-timing-function: ease-out;
+	}
+	.btn {
+        width: 60%;
+        background: linear-gradient(to bottom right,#e972da,#b561db);
+        margin-top: 5px;
+        margin-bottom: 35px;
+        padding: 15px 8px 15px 8px;
+        border-radius: 30px;
+        border-style: none;
+        font-size: 110%;
+        color: white;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        transition: all 200ms;
+       }
+    .btn:hover{
+    	filter: brightness(1.05);
+    	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+	#basdepage{
+        display: flex;
+        flex-direction: column;
+        background-color: #353535;
+    }
+    #basdepage img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+    }
+    footer img{
+    	width: 20%;
+    	height: 20%;
+    }
+    footer a{
+        text-decoration: none;
+        color: white;
+        margin-left: 25px;
+        margin-bottom: 8px;
+    }
+
+    footer i{
+        color: white;
+        padding-right: 10px;
+    }
+    .iconcouvert{
+    	padding-right: 17px;
+    }
+    .iconfooter{
+        margin-bottom: 8px;
+    }
+}
