@@ -29,7 +29,7 @@ h2, h3, p, a{
 	}
 	.header img{
 		display: block;
-		margin-left: 21%;
+		margin-left: 28%;
 		width: 40%;
 		margin-top: 23px;
 		margin-bottom: 13px;
@@ -40,13 +40,16 @@ h2, h3, p, a{
 		font-size: 130%;
 		color: black;
 	}
-	
+	.restoimg{
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
 	section{
 		display: flex;
 		flex-direction:column ;
 		width: 100%;
-		background: no-repeat url(images/restaurants/1resto.jpg);
-		background-size: contain;
+		
 		background-color: #f6f6f6;
 
 		
@@ -78,7 +81,7 @@ h2, h3, p, a{
 		width: 100%;
 		justify-content: space-between;
 		align-items: center;
-		margin-top: 230px;
+		margin-top: -70px;
 		border-top-left-radius: 40px;
 		border-top-right-radius: 40px ;
 		background-color:#f6f6f6 ;
