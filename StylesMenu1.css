@@ -111,17 +111,25 @@ h2, h3, p, a{
 	}
 	.plats:hover .animprixicon{
 		animation-name: iconspin;
-		animation-duration: 900ms ;
+		animation-duration: 800ms ;
 	}
-	
+	.plats:hover .prix{
+		margin-left: 28%;
+		
+		animation-name: decalageprix;
+		animation-duration: 900ms;
+		animation-timing-function: ease;
+	}
+		
 	.txtprix{
 		
 		display: flex;
 		justify-content: space-between;
 	}
+	
 	.prix{
 		display: flex;
-		padding-left: inherit;
+		
 		padding-right: 15px;
 	}
 	.checkanim{
@@ -129,6 +137,7 @@ h2, h3, p, a{
 		padding-top: 24px;
 		padding-right: 22px;
 		padding-left: 22px;
+		padding-bottom: 20px;
 		border-top-right-radius: 15px ;
 		border-bottom-right-radius:	15px ;
 		background-color: #99e2d0;
@@ -140,6 +149,10 @@ h2, h3, p, a{
 		font-size: 130%;
 		color: white;
 		
+	}
+	@keyframes decalageprix{
+		from{transform: translateX(30px);}
+		to{transform: translateX(0px);}
 	}
 	@keyframes iconspin{
 		from{transform: rotate(0deg);}
