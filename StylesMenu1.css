@@ -91,6 +91,32 @@ h2, h3, p, a{
 		font-size: 25px;
 		padding-right: 35px;
 	}
+	.restoiconanim{
+        font-size: 25px;
+        margin-right: 35px;
+        color: violet;
+        
+    }
+    .heart:hover .hearticonvide{
+        display: none;
+        
+    }
+    .hearticonplein{
+        display: none;
+        transform-origin: center;
+    }
+    .heart:hover .hearticonplein{
+        display: inherit;
+        animation-name: heartanim;
+        animation-duration: 400ms;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes heartanim{
+        from{transform:scaleY(0)}
+
+        to{transform: scaleY(1.0);}
+    }
 	.plats{
 
 		border: 1px grey solid;
