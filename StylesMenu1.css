@@ -67,14 +67,14 @@ h2, h3, p, a{
 		font-weight: normal;
 	}
 	section h3{
-		padding-left: 10px;
+		margin-top: 12px;
 		margin-bottom: 0px;
-		padding-top: 10px;
+		padding-left: 10px;
 	}
 	section p{
 		padding-left: 10px;
 		margin-top: 5px;
-		margin-bottom: 10px;
+		margin-bottom: 12px;
 	}
 	.titremenu{
 		display: flex;
@@ -117,28 +117,30 @@ h2, h3, p, a{
 
         to{transform: scaleY(1.0);}
     }
-	.plats{
-
+	.carteplat{
+		display: flex;
+		box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+		flex-grow: 2;
 		border: 1px grey solid;
+		border-style: none;
 		border-radius: 15px;
 		margin-bottom: 15px;
 		margin-right: 10px;
 		margin-left: 10px;
-		box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-		border-style: none;
-
+		
 	}
-	.plats:hover .checkanim{
+	.plats{
+		width: 100%;
+	}
+	.carteplat:hover .checkanim{
 		animation-name: animationprix;
 		animation-duration: 900ms;
 		animation-timing-function: ease;
 		display: inherit;
 
 	}
-	.plats:hover .prix{
-		margin-right: -80px;
-	}
-	.plats:hover .animprixicon{
+	
+	.carteplat:hover .animprixicon{
 		animation-name: iconspin;
 		animation-duration: 800ms ;
 	}
@@ -157,13 +159,14 @@ h2, h3, p, a{
 	}
 	
 	.prix{
-		display: flex;
+		
 		
 		padding-right: 15px;
 	}
 	.checkanim{
-		margin-top: -33px;
-		padding-top: 24px;
+		
+		
+		padding-top: 26px;
 		padding-right: 22px;
 		padding-left: 22px;
 		padding-bottom: 20px;
@@ -171,7 +174,7 @@ h2, h3, p, a{
 		border-bottom-right-radius:	15px ;
 		background-color: #99e2d0;
 		transform-origin: right;
-		display: none;
+		display: none; 
 		
 	}
 	.animprixicon{
