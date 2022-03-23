@@ -72,11 +72,15 @@ h2, h3, p, a{
 		margin-top: 12px;
 		margin-bottom: 0px;
 		padding-left: 10px;
+		
 	}
 	section p{
 		padding-left: 10px;
 		margin-top: 5px;
 		margin-bottom: 12px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 	.titremenu{
 		display: flex;
