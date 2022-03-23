@@ -291,10 +291,15 @@ body{
 
 @media (min-width: 1100px){
 
-   body{
+   header{
        width: 80%;
        margin: auto;
    }
+   nav{
+        width: 80%;
+        margin: auto;
+   }
+   
    #logo{
        border-bottom: none;
    }
@@ -310,25 +315,28 @@ body{
        border: 1px solid black;
        border-radius: 15px;
        border-style: none;
-       width: 1000px;
+       
    }
    section{
     border: 1px solid black;
     border-radius: 15px;
     border-style: none;
     margin-bottom: 30px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
    }
    #basdepage{
        align-items: center;
-       border: 1px solid black;
-        border-radius: 15px;
-        border-style: none;
-        margin-bottom: 10px;
     }
     .loader{
-        margin-left: 38%;
+        margin-left: 48%;
     }
     h2{
+        margin-left: 220px;
+    }
+    section h2{
+        padding-top: 20px;
         margin-left: 80px;
     }
 }
