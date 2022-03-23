@@ -103,7 +103,7 @@ h2, h3, p, a{
 	.restoiconanim{
         font-size: 25px;
         margin-right: 35px;
-        color: #b561db;
+        color: violet;
         
     }
     .heart:hover .hearticonvide{
@@ -129,7 +129,6 @@ h2, h3, p, a{
 	.carteplat{
 		display: flex;
 		box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-		flex-grow: 2;
 		border: 1px grey solid;
 		border-style: none;
 		border-radius: 15px;
@@ -151,7 +150,7 @@ h2, h3, p, a{
 	
 	.carteplat:hover .animprixicon{
 		animation-name: iconspin;
-		animation-duration: 800ms ;
+		animation-duration: 800ms;
 	}
 	.plats:hover .prix{
 		margin-left: 28%;
@@ -183,7 +182,7 @@ h2, h3, p, a{
 		border-bottom-right-radius:	15px ;
 		background-color: #99e2d0;
 		transform-origin: right;
-		display: none; 
+		/* display: none;  */
 		
 	}
 	.animprixicon{

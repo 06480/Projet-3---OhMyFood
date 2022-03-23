@@ -322,7 +322,9 @@ body{
         border-radius: 15px;
         border-style: none;
         margin-bottom: 10px;
-
-   }
+    }
+    .loader{
+        margin-left: 38%;
+    }
 }
 
