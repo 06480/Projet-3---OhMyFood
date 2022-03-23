@@ -281,3 +281,33 @@ h2, h3, p, a{
     .iconfooter{
         margin-bottom: 8px;
     }
+	@media (min-width: 1000px){
+		section{
+			align-items: center;
+		}
+		section h1{
+			margin-left: 200px;
+		}
+		section h2{
+			margin-left: 60px;
+		}
+		.heart{
+			margin-right: 200px;
+		}
+		
+		.entrée{
+			width: 60%;
+		}
+		.platprincipal{
+			width: 60%;
+		}
+		.dessert{
+			width: 60%
+ 		}
+		#basdepage{
+			 align-items: center;
+		}
+		.btn{
+			width: 400px;
+		}
+	}
