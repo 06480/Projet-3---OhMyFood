@@ -182,7 +182,7 @@ h2, h3, p, a{
 		border-bottom-right-radius:	15px ;
 		background-color: #99e2d0;
 		transform-origin: right;
-		/* display: none;  */
+		display: none; 
 		
 	}
 	.animprixicon{
