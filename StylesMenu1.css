@@ -72,6 +72,9 @@ h2, h3, p, a{
 		margin-top: 12px;
 		margin-bottom: 0px;
 		padding-left: 10px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 		
 	}
 	section p{
@@ -100,7 +103,7 @@ h2, h3, p, a{
 	.restoiconanim{
         font-size: 25px;
         margin-right: 35px;
-        color: violet;
+        color: #b561db;
         
     }
     .heart:hover .hearticonvide{
