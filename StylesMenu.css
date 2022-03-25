@@ -1,6 +1,7 @@
 @font-face{
-	font-family: 'Shrikhand', cursive;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Shrikhand';
+	font-family: 'Roboto';
+	src: url('Roboto-ThinItalic-webfont.eot');
 }
 
 
@@ -140,6 +141,20 @@ h2, h3, p, a{
 	.plats{
 		width: 100%;
 	}
+	.checkanim{
+		
+		
+		padding-top: 26px;
+		padding-right: 22px;
+		padding-left: 18px;
+		padding-bottom: 20px;
+		border-top-right-radius: 15px ;
+		border-bottom-right-radius:	15px ;
+		background-color: #99e2d0;
+		transform-origin: right;
+		display: none; 
+		
+	}
 	.carteplat:hover .checkanim{
 		animation-name: animationprix;
 		animation-duration: 900ms;
@@ -171,20 +186,7 @@ h2, h3, p, a{
 		
 		padding-right: 15px;
 	}
-	.checkanim{
-		
-		
-		padding-top: 26px;
-		padding-right: 22px;
-		padding-left: 18px;
-		padding-bottom: 20px;
-		border-top-right-radius: 15px ;
-		border-bottom-right-radius:	15px ;
-		background-color: #99e2d0;
-		transform-origin: right;
-		display: none; 
-		
-	}
+	
 	.animprixicon{
 		font-size: 130%;
 		color: white;

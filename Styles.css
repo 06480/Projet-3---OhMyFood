@@ -1,18 +1,17 @@
 @font-face{
-     font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto';
+     src: url('Roboto-ThinItalic-webfont.eot');
 
 }
 
-#blocpage{
-    width: 90%;
-    margin: auto;
+    #blocpage{
+        width: 90%;
+        margin: auto;
     
-}
-body{
-    font-family: 'Roboto', sans-serif;
-}
+    }
     body{
-        margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
     }
     h2{
         margin-left: 30px;
@@ -98,7 +97,6 @@ body{
         display: flex;
         align-items: center;
         flex-direction: column;
-
     }
     nav a{
         text-decoration: none;
