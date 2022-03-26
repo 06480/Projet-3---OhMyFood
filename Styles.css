@@ -205,6 +205,17 @@
         margin-top: 5px;
         margin-bottom: 15px;
     }
+    .nouveau{
+        position: absolute;
+        border: solid black 1px;
+        background-color: #99e2d0;
+        border-style: none;
+        color: #008665;
+        font-weight: bold;
+        right: 40px;
+        margin-top: 20px;
+        padding: 5px 12px;
+    }
     .alltxt{
         display: flex;
         justify-content: space-between;
@@ -226,7 +237,7 @@
     .restoiconanim{
         font-size: 25px;
         margin-right: 30px;
-        color: violet;
+        color: #9356dc;
         
     }
     .heart:hover .hearticonvide{
@@ -315,6 +326,9 @@
        border-radius: 15px;
        border-style: none;
        
+   }
+   .nouveau{
+       right: 15%;
    }
    section{
     border: 1px solid black;
